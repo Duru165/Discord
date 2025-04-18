@@ -7,3 +7,4 @@ pillow
 numpy
 os
 random
+requests
