@@ -1,1 +1,2 @@
 # Discord
+Bu yapay zeka atık türlerini ayırt eder. Yapay zekanın eğitilmiş modeli "keras_model.h5"tir. "labels.txt"de classların isimleri yer alır.
