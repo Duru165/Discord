@@ -1,9 +1,19 @@
-# Discord
-Bu yapay zeka atık türlerini ayırt eder. Yapay zekanın eğitilmiş modeli "keras_model.h5"tir. "labels.txt"de classların isimleri yer alır. 4 farklı sınıf vardır: Cam, Plastik, Kağıt ve Pil.
+# 🧠 Discord Atık Türü Tanıma Yapay Zekası
 
-Kullanılan kütüthaneler:
-keras.model
-pillow
-numpy
-random
+Bu proje, bir yapay zeka modeli kullanarak **atık türlerini ayırt etmeyi** amaçlamaktadır. Model, dört farklı sınıfa ait atıkları tanımlayabilir:
 
+- 🧴 Plastik  
+- 📰 Kağıt  
+- 🍾 Cam  
+- 🔋 Pil  
+
+Model, `keras_model.h5` dosyasında yer almakta olup, sınıf isimleri `labels.txt` dosyasında sıralanmıştır.
+
+## 🚀 Projeyi Çalıştırmak İçin
+
+### Gereksinimler
+
+Aşağıdaki Python kütüphanelerinin kurulu olması gerekir:
+
+```bash
+pip install keras pillow numpy
