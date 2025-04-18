@@ -5,6 +5,5 @@ Kullanılan kütüthaneler:
 keras.model
 pillow
 numpy
-os
 random
 
